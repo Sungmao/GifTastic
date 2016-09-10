@@ -1,4 +1,4 @@
-var movies = ['Poodle','Labrador Retriever','Husky','Boxer','Dachshund','Pug','Schnauzer'];
+var movies = ['Poodle','Labrador Retriever','Husky','Boxer dog','Dachshund','Pug','Schnauzer'];
 
 function displayMovieInfo(){
 
@@ -54,7 +54,7 @@ function renderButtons(){
 
 		var a = $('<button>');
 
-		a.addClass('movie');
+		a.addClass('movie btn btn-info btn-lg');
 		a.attr('data-name', movies[i]);
 		a.text(movies[i]);
 
